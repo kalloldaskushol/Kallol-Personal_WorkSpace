@@ -127,7 +127,7 @@ int main(){
     }
 
     char sort_name; // Taking the input of what sort does the user wants
-    cout << " S for Selection sort \n M for Merge sort \n B for Bubble sort \n I for Insertion sort" <<endl;
+    cout << " S for Selection sort \n M for Merge sort \n B for Bubble sort \n I for Insertion sort \n Q for Quick Sort " <<endl;
     cin >> sort_name;
 
     switch (sort_name){
